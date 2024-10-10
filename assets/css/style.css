@@ -1,0 +1,186 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+/* Titulos */
+
+.titulo{
+    font-family: 'Arial Black','Impact',sans-serif;
+    font-size: x-large;
+    text-align: center;
+}
+.titulo2{
+    font-family: 'Arial Black','Impact';
+    font-size: large;
+}
+.paragrafo{
+    font-family: 'Segoe UI','Aptos';
+    font-size: medium;
+}
+.legenda{
+    font-family: 'Arial Narrow Black';
+    font-size: x-large;
+    text-align: small;
+    
+}
+/* Cores */
+
+.cor1{
+    color: #000;
+}
+.cor2{
+    color: #ff2d5f;
+}
+.cor3{
+    color: #ff70bf;
+}
+/* Display */
+
+.linha{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border: black 2px solid;
+}
+
+.caixa{
+    height: 100px;
+    border: gray 1px dashed;
+}
+
+.grande{
+    width: 100%;
+}
+
+.media{
+    width: 50%;
+}
+
+.pequena{
+    width: 33%;
+}
+
+/* CSS Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+footer p {
+    font-size: 1rem;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    font-size: 1rem;
+    margin-bottom: 0.5rem;
+}
+
+footer ul li i {
+    margin-right: 8px;
+}
+
+@media (max-width: 768px) {
+    footer .text-md-start,
+    footer .text-md-end {
+        text-align: center;
+    }
+}
+
+/* Tipografia */
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+h1, h5 {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #f8f9fa;
+}
+
+.navbar-brand img {
+    transition: transform 0.3s;
+}
+
+.navbar-brand:hover img {
+    transform: scale(1.1);
+}
+
+.nav-link:hover {
+    color: #ff2d5f !important;
+}
+
+/* Carrossel */
+.carousel-item img {
+    transition: transform 0.5s ease;
+}
+
+.carousel-item:hover img {
+    transform: scale(1.05);
+}
+
+/* Cartões */
+.card {
+    border: none;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+
+.btn-danger {
+    background-color: #ff2d5f;
+    border-color: #ff2d5f;
+}
+
+.btn-danger:hover {
+    background-color: #ff70bf;
+    border-color: #ff70bf;
+}
+
+/* Fotos */
+.img-fluid {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Footer */
+footer {
+    background-color: #343a40;
+    color: #fff;
+}
+
+footer h5 {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+footer ul li i {
+    margin-right: 10px;
+    color: #ff2d5f;
+}
+ 
+  
+
+
+
